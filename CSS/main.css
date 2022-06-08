@@ -16,12 +16,14 @@ html {
     user-select: none;
     position: relative;
     overflow: hidden;
+    overflow-y: hidden;
 }
 
 body {
     font-family: "Roboto", sans-serif;
     position: relative;
     overflow: hidden;
+    overflow-y: hidden;
 }
 
 /* ////////// */
