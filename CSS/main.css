@@ -12,9 +12,13 @@ html {
   font-size: 10px;
   transition: 0.3s;
   user-select: none;
+  position: relative;
+  overflow-x: hidden;
 }
 body {
   font-family: "Roboto", sans-serif;
+  position: relative;
+  overflow-x: hidden;
 }
 
 /* ////////// */
