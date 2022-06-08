@@ -23,3 +23,4 @@ main.onclick = ()=>{
     aside.classList.remove("shown")
 
 }
+window.addEventListener("sc")
