@@ -9,6 +9,7 @@
 //     })
     
 // });
+let main = document.getElementsByClassName("v-container")[0]
 let aside = document.querySelectorAll("aside")[0]
 let btn = document.querySelectorAll("header .left-section i")[0]
 btn.onclick = ()=>{
@@ -17,5 +18,8 @@ btn.onclick = ()=>{
     }else{
         aside.classList.add("shown")
     }
-    
+}
+main.onclick = ()=>{
+    aside.classList.remove("shown")
+
 }
