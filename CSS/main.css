@@ -11,6 +11,7 @@ html {
   scroll-behavior: smooth;
   font-size: 10px;
   transition: 0.3s;
+  user-select: none;
 }
 body {
   font-family: "Roboto", sans-serif;
@@ -110,7 +111,13 @@ header {
 @media (max-width: 443px) {
   .right-section {
     width: 75%;
+    margin-right: -46%;
   }
+}
+@media(max-width:410px)  {
+    .right-section{
+        margin-right: -25%;
+    }
 }
 .mid-section button,
 .right-section button {
