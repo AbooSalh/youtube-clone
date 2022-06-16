@@ -13,14 +13,9 @@ let main = document.getElementsByClassName("v-container")[0]
 let aside = document.querySelectorAll("aside")[0]
 let btn = document.querySelectorAll("header .left-section i")[0]
 btn.onclick = ()=>{
-    if(aside.className == "shown"){
-        aside.classList.remove("shown")
-    }else{
-        aside.classList.add("shown")
-    }
+    aside.classList.toggle("shown")
 }
 main.onclick = ()=>{
     aside.classList.remove("shown")
 
 }
-window.addEventListener("sc")
